@@ -14,17 +14,10 @@ import ScrollToTop from "./utils/scrollToTop"
 function App() {
   return (
 		<div className="App">
-			<Router>
 				<ScrollToTop />
 				<Navbar />
-				<Routes>
-					<Route path="/sibir/" element={<Home />} />
-					<Route path="/projects" element={<Projects />} />
-					<Route path="/project/:id" element={<Project />} />
-					<Route path="/contacts" element={<Contacts />} />
-				</Routes>
+				<Home />
 				<Footer />
-			</Router>
 		</div>
   );
 }
