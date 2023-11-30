@@ -13,6 +13,10 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
+    path: "/sibir.io",
+    element: <App />
+  },
+  {
     path: "/menu",
     element: <Projects />
   },
